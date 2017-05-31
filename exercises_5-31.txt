@@ -1,0 +1,36 @@
+
+======= objects/arrays =======
+Create an object that:
+• holds data about you (firstName, lastName, birthday)
+• contains an array property with a list of your interests
+• contains a method that prints each array property to the console
+• prints object to console with console.dir
+
+======= functions/arguments =======
+Create a function that:
+• Receives 4 arguments: 2 numbers and 2 strings
+• Prints the function name to the console
+• Prints the received arguments to the console (one per line)
+• Adds the numbers and saves result to a variable
+• Outputs the result variable to the console
+• Adds two string arguments and outputs the result to the console
+• Uses the plus (+) symbol to add the number to the strings (works???)
+
+======= conditionals =======
+Write a conditional that:
+• checks if a variable is less than 10
+• If true, alert user (variable less than 10)
+• If false, alert user (variable greater than 10)
+• Try different values to test the conditional
+
+Write a conditional to check if a string is the same as another string
+• Test strings with uppercase/lowercase
+• Test strings with preceding or following white spaces (e.g. "string",  "  string  ")
+
+======= arrays =======
+Create a function:
+• with two arrays of different length (array1, array2)
+• prints the first and last item from each array to the console
+• has a multidimensional array (array3) that contains arrays 1 & 2
+• prints each array3 element to the console
+• prints the first and last items of array3 to the console
