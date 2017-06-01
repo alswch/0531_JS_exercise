@@ -1,22 +1,22 @@
 // ====== objects/arrays ======
-// var myInfo = {
-//   firstName: "Alexander",
-//   lastName: "Chung",
-//   birthday: "June 29,1987",
-//   interests: ["ski", "golf", "food", "movies"],
-//   initialize: function() {
-//     // console.log("==initialize==");
-//     for (i=0; i < myInfo.interests.length; i++) {
-//     console.log(myInfo.interests[i]);
-//     }
-//   },
-//   printObj: function() {
-//     console.dir(myInfo);
-//     console.log(myInfo);
-//   }
-// };
-// myInfo.initialize();
-// myInfo.printObj();
+var myInfo = {
+  firstName: "Alexander",
+  lastName: "Chung",
+  birthday: "June 29,1987",
+  interests: ["ski", "golf", "food", "movies"],
+  initialize: function() {
+    // console.log("==initialize==");
+    for (i=0; i < myInfo.interests.length; i++) {
+    console.log(myInfo.interests[i]);
+    }
+  },
+  printObj: function() {
+    console.dir(myInfo);
+    console.log(myInfo);
+  }
+};
+myInfo.initialize();
+myInfo.printObj();
 
 
 //====== functions/arguments ======
@@ -52,7 +52,7 @@ else {
 };
 
 var black = "phone";
-var white = "phone ";
+var white = "phone";
 if (black == white) {
   alert = "You got it."
   console.log(alert)
@@ -61,3 +61,16 @@ else {
   alert2 = "You are wrong."
   console.log(alert2);
 };
+
+//====== arrays ======
+var type = ["sports", "coupe", "sudan", "SUV", "truck"];
+var colors = ["black", "white", "red"];
+var car = [type, colors];
+console.log(type[0]);
+console.log(type[4]);
+console.log(colors[0]);
+console.log(colors[2]);
+console.log(car[0]);
+console.log(car[1]);
+console.log(car[0][0]);
+console.log(car[0][2]);
