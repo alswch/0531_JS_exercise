@@ -39,3 +39,25 @@ var example = {
   }
 };
 example.argumentsObj();
+
+//====== conditionals ======
+var numb = 20;
+if (numb < 10) {
+  alert = "You got it."
+  console.log(alert)
+}
+else {
+  alert2 = "You are wrong."
+  console.log(alert2);
+};
+
+var black = "phone";
+var white = "phone ";
+if (black == white) {
+  alert = "You got it."
+  console.log(alert)
+}
+else {
+  alert2 = "You are wrong."
+  console.log(alert2);
+};
