@@ -34,3 +34,57 @@ Create a function:
 • has a multidimensional array (array3) that contains arrays 1 & 2
 • prints each array3 element to the console
 • prints the first and last items of array3 to the console
+
+======= array methods =======
+• write a series of functions that use each of the array methods listed in the JS_refsheet (UPDATED VERSION!)
+== adding and removing elements
+    push()		Adds new elements to the end of an array, and returns the new length
+    unshift()	Adds new elements to the beginning of an array, and returns the new length
+    pop()	    Removes the last element of an array, and returns that element
+    shift()	    Removes the first element of an array, and returns that element
+
+== selecting ranges of elements
+    slice()	    Selects a part of an array, and returns the new array
+    splice()	Adds/Removes elements from an array
+
+== sequencing elements
+    reverse()	Reverses the order of the elements in an array
+    sort()	    Sorts the elements of an array
+
+== processing elements
+    map()	    Creates a new array with the result of calling a function for each array element
+    forEach()	Calls a function for each array element
+    filter()	Creates a new array with every element in an array that pass a test
+    find()	    Returns the value of the first element in an array that pass a test
+
+== convert array to string
+    join()	    Joins all elements of an array into a string
+    toString()	Converts an array to a string, and returns the result
+
+== find index from element, find element at index
+    findIndex()	Returns the index of the first element in an array that pass a test
+    indexOf()	Search the array for an element and returns its position
+
+======= string methods =======
+== locating characters within strings
+    charAt()        Returns the character at the specified index (position)
+    includes()	    Checks whether a string contains the specified string/characters
+    startsWith()	Checks whether a string begins with specified characters
+    endsWith()      Checks whether a string ends with specified string/characters
+    indexOf()	    Returns the position of the first found occurrence of a specified value in a string
+    lastIndexOf()	Returns the position of the last found occurrence of a specified value in a string
+    search()	    Searches a string for a specified value, and returns the position of the match
+
+== modify string objects
+    concat()	    Joins two or more strings, and returns a new joined strings
+    replace()	    Searches string for specified value, returns a new string with specified values replaced
+    trim()	        Removes whitespace from both ends of a string
+
+== dividing strings into parts
+    slice()	        Extracts a part of a string and returns a new string
+    split()	        Splits a string into an array of substrings
+    substring()	    Extracts the characters from a string, between two specified indices
+
+== case functions
+    toLowerCase()	Converts a string to lowercase letters
+    toUpperCase()	Converts a string to uppercase letters
